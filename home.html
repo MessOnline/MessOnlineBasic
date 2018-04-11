@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HOME</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #6d1303;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #f4ad42;
+    color: black;
+  
+}
+
+body{
+  background:#f9fffc;
+}
+</style>
+</head>
+<link rel="stylesheet" type="text/css" href="home.css">
+<body>
+ <h1><img src="http://img.collegepravesh.com/2016/05/IET-Lucknow-Logo.jpg" style="width:180px;height: 200px;"/> <pre> <strong</strong>    WELCOME TO ARYABHATT MESS</strong></pre></h1>
+ <h3><pre>   (mess of aryabhattt hostel)</pre></h3>
+<br><br><br>
+<div class="header">
+ 
+</div>
+
+<div class="topnav">
+  <
+  <a href="#">Home</a>
+  <a href="#">Mess Menu</a>
+   <a href="#">Day wise menu</a>
+   <a href="#">Payments</a>
+  <a href="#">Feedback</a>
+  <a href="#">Suggestion</a> 
+  
+  <a href="#">About Us</a>
+</div>
+
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="https://tse1.mm.bing.net/th?id=OIP.SIoAsCnq8DnaPJ2OS8E6KAHaEK&w=189&h=106&c=8&rs=1&qlt=90&dpr=1.25&pid=3.1&rm=2" style="width:1075px;height: 300px;">
+  <img class="mySlides" src="https://tse1.mm.bing.net/th?id=OIP.Xp2RQVjyCr3kN1G8VhcK_wHaE_&w=158&h=106&c=8&rs=1&qlt=90&dpr=1.25&pid=3.1&rm=2" style="width:1075px;height: 300px;">
+  <img class="mySlides" src="https://tse1.mm.bing.net/th?id=OIP.vHuBHI85cfIMsLSDSy94fgHaEo&w=176&h=110&c=8&rs=1&qlt=90&dpr=1.25&pid=3.1&rm=2" style="width:1075px;height: 300px;">
+   <img class="mySlides" src="https://tse3.mm.bing.net/th?id=OIP.vF_dKOEn6fxOlCn72hVYtAHaEK&w=278&h=160&c=7&o=5&dpr=1.25&pid=1.7" style="width:1075px; height: 300px;">
+    <img class="mySlides" src="http://cdn.johnywheels.com/2016/05/14/indianfood-l-bcce5d6ec09bae3b.jpg" style="width:1075px;height: 300px;">
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+</body>
+</html>
