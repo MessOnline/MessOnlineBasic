@@ -1,2 +1,3 @@
-Testing lectures of github in the class
-Abhishek PUSHPENDRA Arjun Aman
+footer.html is the main page.
+need to design a table for mess menu.
+a profile page is required!
