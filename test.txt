@@ -1,0 +1,3 @@
+footer.html is the main page.
+need to design a table for mess menu.
+a profile page is required!
